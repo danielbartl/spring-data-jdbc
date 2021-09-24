@@ -17,15 +17,16 @@ package org.springframework.data.relational.core.sql;
 
 /**
  * {@link Segment} to select all columns from a {@link Table}.
- * <p/>
- * * Renders to: {@code
+ * <p>
+ * Renders to: {@code
  *
 <table>
  * .*} as in {@code SELECT
  *
 <table>
  * .* FROM …}.
- *
+ * </p>
+ * 
  * @author Mark Paluch
  * @since 1.1
  * @see Table#asterisk()

@@ -25,9 +25,10 @@ import org.springframework.util.Assert;
 /**
  * Represents a table reference within an SQL statement. Typically used to denote {@code FROM} or {@code JOIN} or to
  * prefix a {@link Column}.
- * <p/>
+ * <p>
  * Renders to: {@code <name>} or {@code <name> AS <name>}.
- *
+ * </p>
+ * 
  * @author Mark Paluch
  * @since 1.1
  */
@@ -114,10 +115,10 @@ public class Table extends AbstractSegment {
 
 	/**
 	 * Creates a new {@link Column} associated with this {@link Table}.
-	 * <p/>
+	 * <p>
 	 * Note: This {@link Table} does not track column creation and there is no possibility to enumerate all
 	 * {@link Column}s that were created for this table.
-	 *
+	 *</p>
 	 * @param name column name, must not be {@literal null} or empty.
 	 * @return a new {@link Column} associated with this {@link Table}.
 	 */
@@ -130,10 +131,10 @@ public class Table extends AbstractSegment {
 
 	/**
 	 * Creates a new {@link Column} associated with this {@link Table}.
-	 * <p/>
+	 * <p>
 	 * Note: This {@link Table} does not track column creation and there is no possibility to enumerate all
 	 * {@link Column}s that were created for this table.
-	 *
+	 *</p>
 	 * @param name column name, must not be {@literal null} or empty.
 	 * @return a new {@link Column} associated with this {@link Table}.
 	 * @since 2.0
@@ -147,10 +148,10 @@ public class Table extends AbstractSegment {
 
 	/**
 	 * Creates a {@link List} of {@link Column}s associated with this {@link Table}.
-	 * <p/>
+	 * <p>
 	 * Note: This {@link Table} does not track column creation and there is no possibility to enumerate all
 	 * {@link Column}s that were created for this table.
-	 *
+	 *</p>
 	 * @param names column names, must not be {@literal null} or empty.
 	 * @return a new {@link List} of {@link Column}s associated with this {@link Table}.
 	 */
@@ -163,10 +164,10 @@ public class Table extends AbstractSegment {
 
 	/**
 	 * Creates a {@link List} of {@link Column}s associated with this {@link Table}.
-	 * <p/>
+	 * <p>
 	 * Note: This {@link Table} does not track column creation and there is no possibility to enumerate all
 	 * {@link Column}s that were created for this table.
-	 *
+	 *</p>
 	 * @param names column names, must not be {@literal null} or empty.
 	 * @return a new {@link List} of {@link Column}s associated with this {@link Table}.
 	 * @since 2.0
@@ -185,10 +186,10 @@ public class Table extends AbstractSegment {
 
 	/**
 	 * Creates a {@link List} of {@link Column}s associated with this {@link Table}.
-	 * <p/>
+	 * <p>
 	 * Note: This {@link Table} does not track column creation and there is no possibility to enumerate all
 	 * {@link Column}s that were created for this table.
-	 *
+	 *</p>
 	 * @param names column names, must not be {@literal null} or empty.
 	 * @return a new {@link List} of {@link Column}s associated with this {@link Table}.
 	 */
